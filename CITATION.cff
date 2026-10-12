@@ -1,23 +1,14 @@
 cff-version: 1.2.0
-title: GitHub Template for FAIR and Open Research Data
+title: 'Fictional master''s thesis: Swiss periodicals, 1830–1960 (workshop example)'
 message: >-
-  If you use this template, please cite it using the
-  metadata from this file.
-type: software
-version: 1.0.0
+  This is a teaching example with synthetic data. Cite the workshop, not
+  this repository, if you refer to it.
+type: dataset
 authors:
-  - family-names: Mähr
-    given-names: Moritz
-    alias: maehr
-    orcid: 'https://orcid.org/0000-0002-1367-1618'
-  - family-names: Twente
-    given-names: Moritz
-    alias: mtwente
-    orcid: 'https://orcid.org/0009-0005-7187-9774'
-repository-code: 'https://github.com/maehr/open-research-data-template'
-url: 'https://maehr.github.io/open-research-data-template/'
-doi: '10.5281/zenodo.19111355'
-license: AGPL-3.0
+  - given-names: Fictional
+    family-names: Student
+repository-code: 'https://github.com/maehr/projm-example-thesis'
+license: CC-BY-4.0
 abstract: >-
-  GitHub template for FAIR and open research data documentation with Quarto,
-  GitHub Pages, and Zenodo-ready release workflows.
+  Workshop example: 30 synthetic periodical records and the plan of a fictional
+  DH master's thesis, managed with GitHub Issues and a GitHub Project.
