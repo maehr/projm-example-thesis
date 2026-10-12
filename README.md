@@ -11,7 +11,7 @@ The thesis asks how Swiss periodicals circulated between 1830 and 1960.
 
 | Item                   | Value                                                      |
 | ---------------------- | ---------------------------------------------------------- |
-| Data                   | `data/synthetic-periodicals.csv`, 30 synthetic records     |
+| Data                   | `data/clean/synthetic-periodicals.csv`, 30 synthetic records |
 | Plan                   | GitHub Issues, milestones, and one GitHub Project          |
 | Fictional registration | 2026-12-01                                                 |
 | Fictional submission   | 2027-06-01                                                 |
