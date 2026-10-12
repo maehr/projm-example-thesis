@@ -16,6 +16,16 @@ The thesis asks how Swiss periodicals circulated between 1830 and 1960.
 | Fictional registration | 2026-12-01                                                 |
 | Fictional submission   | 2027-06-01                                                 |
 
+## Research question and scope
+
+**Research question:** How did Swiss periodicals circulate between 1830 and 1960, and how did language shape their reach?
+
+| In scope                                                   | Out of scope                                     |
+| ---------------------------------------------------------- | ------------------------------------------------ |
+| 30 synthetic periodical records (German, French, Italian)  | Real archival records or digitised page images   |
+| Place, language, frequency, and years of publication       | Content analysis of articles                     |
+| Reuse status of the fictional scans                        | Readers, subscribers, or other personal data     |
+
 ## Visibility
 
 This exercise repository is public because it contains only synthetic data.
