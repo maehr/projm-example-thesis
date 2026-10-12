@@ -1,0 +1,49 @@
+---
+title: Data Dictionary
+description: Structure, variables, and definitions of the synthetic periodical metadata.
+---
+
+This document describes `data/clean/synthetic-periodicals.csv`.
+
+::: {.callout-important}
+Every record is **synthetic**. The records describe periodicals that never existed. Do not cite them as historical evidence.
+:::
+
+## Overview
+
+- **Title**: Synthetic periodical metadata, Switzerland, 1830–1960
+- **Authors**: Fictional MA student (workshop example)
+- **Funding**: None
+- **Version**: 1.0.0 (2026-10-16)
+- **License**: [CC BY 4.0](../LICENSE-CCBY.md)
+
+## Methodology
+
+A script generated the 30 records with a fixed seed for the workshop "GitHub as a Project Management Tool". No record comes from a real archive.
+
+## File Overview
+
+| File                                   | Format | Description                              |
+| -------------------------------------- | ------ | ---------------------------------------- |
+| `data/clean/synthetic-periodicals.csv` | CSV    | 30 synthetic records, one per periodical |
+
+Missing values are **empty cells**: `last_year` (5 records), `publisher` (3 records), `frequency` (2 records).
+
+## Definitions / Data Dictionary
+
+### `data/clean/synthetic-periodicals.csv`
+
+| Variable Name          | Description                                  | Data Type | Units / Format | Allowed Values / Codes                                   |
+| ---------------------- | -------------------------------------------- | --------- | -------------- | -------------------------------------------------------- |
+| `record_id`            | Unique identifier of the record              | String    | `SYN-P000`     | `SYN-P001` to `SYN-P030`                                 |
+| `title`                | Title of the fictional periodical            | String    | Free text      | N/A                                                      |
+| `language`             | Main language                                | String    | ISO 639-1      | `de`, `fr`, `it`                                         |
+| `place_of_publication` | Town of publication                          | String    | Free text      | N/A                                                      |
+| `first_year`           | First year of publication                    | Integer   | YYYY           | 1830 to 1905                                             |
+| `last_year`            | Last year of publication                     | Integer   | YYYY           | Empty if not known                                       |
+| `frequency`            | Frequency of publication                     | String    | Code           | `daily`, `weekly`, `monthly`, `quarterly`, `irregular`   |
+| `subject`              | Main subject                                 | String    | Code           | `politics`, `culture`, `religion`, `economy`, `science`, `entertainment` |
+| `publisher`            | Fictional publisher or printer               | String    | Free text      | Empty if not known                                       |
+| `scan_reuse_status`    | Reuse terms of the fictional archive's scans | String    | Code           | `open`, `attribution-required`, `unknown`, `restricted`  |
+| `digitised`            | Digitisation status                          | String    | Code           | `yes`, `no`, `partial`                                   |
+| `is_synthetic`         | Marks the record as synthetic                | Boolean   | `true`         | `true`                                                   |
