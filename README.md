@@ -18,7 +18,7 @@ The thesis asks how the landscape of Swiss periodicals changed between 1830 and 
 
 ## Research question and scope
 
-**Research question:** How did the landscape of Swiss periodicals change between 1830 and 1960 by language, place, and subject?
+**Research question:** How did the landscape of Swiss periodicals change between 1830 and 1860 by divide between urban and rural, language, place, and subject?
 
 | In scope                                                   | Out of scope                                     |
 | ---------------------------------------------------------- | ------------------------------------------------ |
